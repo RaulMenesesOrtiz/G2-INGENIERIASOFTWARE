@@ -1,0 +1,20 @@
+.container{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+}
+.body {
+    padding-top: 60px;
+    padding-color: grey;
+    height: 1333px;
+    background-image: url("sf2.jpg");
+    width: 2000px;
+    background-repeat:no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 100%;
+    font-size: 1.5em;
+    color: #0a1d41;
+    background-color: transparent;
+}

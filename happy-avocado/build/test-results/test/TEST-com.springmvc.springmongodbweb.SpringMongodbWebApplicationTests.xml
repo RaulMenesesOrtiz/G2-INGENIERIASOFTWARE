@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-05T11:55:17" hostname="LAPTOP-T6FCLDSU" time="1.843">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests" time="1.843"/>
+  <system-out><![CDATA[06:54:56.380 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+06:54:56.445 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+06:54:56.640 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+06:54:56.763 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests], using SpringBootContextLoader
+06:54:56.778 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]: class path resource [com/springmvc/springmongodbweb/SpringMongodbWebApplicationTests-context.xml] does not exist
+06:54:56.779 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]: class path resource [com/springmvc/springmongodbweb/SpringMongodbWebApplicationTestsContext.groovy] does not exist
+06:54:56.780 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+06:54:56.789 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]: SpringMongodbWebApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:54:57.056 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]
+06:54:57.408 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\ESPE\Espe 6\Desarrollo de aplicaciones WEB\DOCUMENTOS FINALES\Proyecto\happy-avocado\build\classes\java\main\com\springmvc\springmongodbweb\SpringMongodbWebApplication.class]
+06:54:57.411 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springmvc.springmongodbweb.SpringMongodbWebApplication for test class com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests
+06:54:57.847 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.springmvc.springmongodbweb.SpringMongodbWebApplicationTests]: using defaults.
+06:54:57.850 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+06:54:57.987 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b06c1a6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d139bfc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7cd678ad, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f339fe5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22256254, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5318d197, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c44c849, org.springframework.test.context.event.EventPublishingTestExecutionListener@3f2ba093, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@361552e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2394a9dc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19282b67, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7b652fe9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@677be037]
+06:54:57.999 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@522a2593 testClass = SpringMongodbWebApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@126233ca testClass = SpringMongodbWebApplicationTests, locations = '{}', classes = '{class com.springmvc.springmongodbweb.SpringMongodbWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7166648d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57c57211, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@12abce44, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@54ebfcfc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+06:54:58.090 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2022-06-05 06:54:59.573  INFO 13284 --- [    Test worker] c.s.s.SpringMongodbWebApplicationTests   : Starting SpringMongodbWebApplicationTests on LAPTOP-T6FCLDSU with PID 13284 (started by point in C:\ESPE\Espe 6\Desarrollo de aplicaciones WEB\DOCUMENTOS FINALES\Proyecto\happy-avocado)
+2022-06-05 06:54:59.587  INFO 13284 --- [    Test worker] c.s.s.SpringMongodbWebApplicationTests   : No active profile set, falling back to default profiles: default
+2022-06-05 06:55:03.027  INFO 13284 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-06-05 06:55:03.166  INFO 13284 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121ms. Found 1 MongoDB repository interfaces.
+2022-06-05 06:55:07.674  INFO 13284 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-06-05 06:55:07.674  INFO 13284 --- [    Test worker] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2022-06-05 06:55:10.108  INFO 13284 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.11.2.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-3.11.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-3.11.2.jar:na]
+	... 3 common frames omitted
+
+2022-06-05 06:55:13.107  INFO 13284 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-05 06:55:17.116  INFO 13284 --- [    Test worker] c.s.s.SpringMongodbWebApplicationTests   : Started SpringMongodbWebApplicationTests in 18.994 seconds (JVM running for 27.907)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
